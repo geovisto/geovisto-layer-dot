@@ -1,12 +1,14 @@
 # Geovisto Dotlayer Tool
+
 Tool which provides the map layer functionality for [Geovisto core library](https://github.com/geovisto/geovisto).
 
 This repository is a snapshot of Geoviosto `tools/layers/dot` derived from the development repository: [geovisto/geovisto-map](https://github.com/geovisto/geovisto-map).
 
 ## Usage
+
 ![image](https://user-images.githubusercontent.com/44326793/212474132-75526229-584d-4317-b9a5-39c12c776272.png)
 
-```js 
+```js
 import { GeovistoDotLayerTool } from 'geovisto-layer-dot';
 import 'geovisto-layer-dot/dist/index.css';
 
@@ -25,7 +27,7 @@ const map = Geovisto.createMap({
 
 // rendering of the map
 map.draw(Geovisto.getMapConfigManagerFactory().default({
-  // initial settings of the map can be overriden by the map config - JSON structure providing user settings 
+  // initial settings of the map can be overriden by the map config - JSON structure providing user settings
   // ...
   tools?: [
     // config of Geovisto tools (extensions) used in the map
@@ -47,21 +49,25 @@ map.draw(Geovisto.getMapConfigManagerFactory().default({
   ]
 }));
 ```
+
 ## Instalation
+
 `npm install --save geovisto-layer-dot`
 
 Peer dependencies:
 
-`npm install --save geovisto leaflet geovisto-filters`
+`npm install --save geovisto leaflet`
 
 ## Authors and Contributors
+
 Author: [Petr Kašpar](https://github.com/xkaspa40), [Vladimír Korenčik](https://github.com/froztt)
 
 Contributors: [Jiři Hynek](https://github.com/jirka)
 
 ## License
+
 [MIT](https://github.com/geovisto/geovisto-layer-dot/blob/master/LICENSE)
 
 ### Keywords
-[gis](https://www.npmjs.com/search?q=keywords:gis) [map](https://www.npmjs.com/search?q=keywords:map) [geovisto](https://www.npmjs.com/search?q=keywords:geovisto) [leaflet](https://www.npmjs.com/search?q=keywords:leaflet) [spatial-data](https://www.npmjs.com/search?q=keywords:spatial-data) [visualization](https://www.npmjs.com/search?q=keywords:visualization) [dot](https://www.npmjs.com/search?q=keywords:dot) [dotmap](https://www.npmjs.com/search?q=keywords:dotmap)
 
+[gis](https://www.npmjs.com/search?q=keywords:gis) [map](https://www.npmjs.com/search?q=keywords:map) [geovisto](https://www.npmjs.com/search?q=keywords:geovisto) [leaflet](https://www.npmjs.com/search?q=keywords:leaflet) [spatial-data](https://www.npmjs.com/search?q=keywords:spatial-data) [visualization](https://www.npmjs.com/search?q=keywords:visualization) [dot](https://www.npmjs.com/search?q=keywords:dot) [dotmap](https://www.npmjs.com/search?q=keywords:dotmap)
