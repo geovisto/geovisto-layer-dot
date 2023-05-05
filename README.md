@@ -39,8 +39,8 @@ map.draw(Geovisto.getMapConfigManagerFactory().default({
       "layerName": "Dot layer",
       // mapping of data domains to data dimensions
       "data": {
-        "latitude": "-37.8210922667", // latitude in degrees
-        "longitude": "175.2209316333", // longitude in degrees
+        "latitude": "lat", // latitude in degrees
+        "longitude": "long", // longitude in degrees
         "category": "data.category", // category dimension
         "color": "#e32400" // color of dots
       }
